@@ -25,7 +25,7 @@ library.init = async function (params) {
 	const { router, middleware } = params;
 	const routeHelpers = require.main.require('./src/routes/helpers');
 
-	routeHelpers.setupAdminPageRoute(router, '/admin/plugins/harmony', [], controllers.renderAdminPage);
+	routeHelpers.setupAdminPageRoute(router, '/admin/plugins/talksimlish', [], controllers.renderAdminPage);
 
 	routeHelpers.setupPageRoute(router, '/user/:userslug/theme', [
 		middleware.exposeUid,
@@ -55,9 +55,9 @@ async function buildSkins() {
 
 library.addAdminNavigation = async function (header) {
 	header.plugins.push({
-		route: '/plugins/harmony',
+		route: '/plugins/talksimlish',
 		icon: 'fa-paint-brush',
-		name: '[[themes/harmony:theme-name]]',
+		name: '[[themes/talksimlish:theme-name]]',
 	});
 	return header;
 };
@@ -67,7 +67,7 @@ library.addProfileItem = async (data) => {
 		id: 'theme',
 		route: 'theme',
 		icon: 'fa-paint-brush',
-		name: '[[themes/harmony:settings.title]]',
+		name: '[[themes/talksimlish:settings.title]]',
 		visibility: {
 			self: true,
 			other: false,
@@ -138,7 +138,7 @@ library.defineWidgetAreas = async function (areas) {
 
 library.loadThemeConfig = async function (uid) {
 	const [themeConfig, userConfig] = await Promise.all([
-		meta.settings.get('harmony'),
+		meta.settings.get('talksimlish'),
 		user.getSettings(uid),
 	]);
 
@@ -162,7 +162,7 @@ library.getThemeConfig = async function (config) {
 };
 
 library.getAdminSettings = async function (hookData) {
-	if (hookData.plugin === 'harmony') {
+	if (hookData.plugin === 'talksimlish') {
 		hookData.values = {
 			...defaults,
 			...hookData.values,
