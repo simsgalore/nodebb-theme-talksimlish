@@ -3,6 +3,14 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
 {{{ end }}}
 
+{{{ if widgets.header.length }}}
+<div data-widget-area="header">
+	{{{ each widgets.header }}}
+	{{widgets.header.html}}
+	{{{ end }}}
+</div>
+{{{ end }}}
+
 <div class="category-header d-flex flex-column gap-2">
 	<div class="d-flex gap-2 align-items-center mb-1 {{{ if config.theme.centerHeaderElements }}}justify-content-center{{{ end }}}">
 		{buildCategoryIcon(@value, "40px", "rounded-1 flex-shrink-0")}
@@ -24,15 +32,6 @@
 		</span>
 	</div>
 </div>
-
-{{{ if widgets.header.length }}}
-<div data-widget-area="header">
-	{{{ each widgets.header }}}
-	{{widgets.header.html}}
-	{{{ end }}}
-</div>
-{{{ end }}}
-
 
 <div class="row mt-3">
 	<div class="category d-flex flex-column {{{if widgets.sidebar.length }}}col-lg-9 col-sm-12{{{ else }}}col-lg-12{{{ end }}}">
