@@ -14,7 +14,7 @@
 		"public/talksimlish.js"
 	],
 	"modules": {
-		"../admin/plugins/harmony.js": "public/admin.js",
+		"../admin/plugins/talksimlish.js": "public/admin.js",
 		"../client/account/theme.js": "public/settings.js"
 	},
 	"staticDirs": {
