@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simsgalore/talksimlishthemeissues"
+    "url": "https://github.com/simsgalore/nodebb-theme-talksimlish/issues"
   },
   "dependencies": {
     "@fontsource/inter": "5.0.15",
