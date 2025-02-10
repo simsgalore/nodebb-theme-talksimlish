@@ -1,6 +1,6 @@
 'use strict';
 
-define('admin/plugins/harmony', ['settings'], function (Settings) {
+define('admin/plugins/talksimlish', ['settings'], function (Settings) {
 	var ACP = {};
 
 	ACP.init = function () {
