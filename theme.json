@@ -1,6 +1,6 @@
 {
-    "id": "nodebb-theme-harmony",
-    "name": "Harmony",
+    "id": "talksimlishtheme",
+    "name": "Talk Simlish Theme",
     "description": "The default theme for NodeBB. Uses a standard approach to forum design.",
     "url": "https://github.com/nodebb/nodebb-theme-harmony",
     "screenshot": "screenshot.png"
