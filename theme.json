@@ -1,7 +1,7 @@
 {
-    "id": "talksimlishtheme",
+    "id": "    nodebb-theme-talksimlish",
     "name": "Talk Simlish Theme",
-    "description": "The default theme for NodeBB. Uses a standard approach to forum design.",
-    "url": "https://github.com/nodebb/nodebb-theme-harmony",
+    "description": "Customised Harmony theme for Talk Simlish.",
+    "url": "https://github.com/simsgalore/nodebb-theme-talksimlish",
     "screenshot": "screenshot.png"
 }
