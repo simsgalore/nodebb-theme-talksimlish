@@ -4,7 +4,7 @@
   "nbbpm": {
     "compatibility": "^3.7.0"
   },
-  "description": "Harmony theme for NodeBB",
+  "description": "Customised Harmony theme for NodeBB",
   "main": "library.js",
   "repository": {
     "type": "git",
