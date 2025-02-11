@@ -57,7 +57,7 @@ library.addAdminNavigation = async function (header) {
 	header.plugins.push({
 		route: '/plugins/talksimlish',
 		icon: 'fa-paint-brush',
-		name: '[[themes/talksimlish:theme-name]]',
+		name: 'Talk Simlish Theme',
 	});
 	return header;
 };
