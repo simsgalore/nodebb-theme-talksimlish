@@ -37,7 +37,7 @@
     "url": "https://github.com/simsgalore/nodebb-theme-talksimlish/issues"
   },
   "dependencies": {
-    "@fontsource-variable/cabin": "5.1.1",
+    "@fontsource-variable/cabin": "5.1.1"
   },
   "devDependencies": {
     "eslint": "^9.0.0",
