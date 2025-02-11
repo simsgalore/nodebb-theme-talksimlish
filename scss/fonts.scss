@@ -4,7 +4,7 @@ $weights: $font-weight-light, $font-weight-normal, $font-weight-semibold, $font-
 $subsets: (latin, latin-ext);
 $font-path: "./plugins/nodebb-theme-talksimlish" !default;
 
-@include Inter.faces(
+@include Cabin.faces(
 	$weights: $weights,
 	$subsets: $subsets,
 	$display: fallback,
