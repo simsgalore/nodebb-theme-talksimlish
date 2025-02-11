@@ -6,56 +6,56 @@
 			<form role="form" class="talksimlish-settings">
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="enableQuickReply" name="enableQuickReply" />
-					<label for="enableQuickReply" class="form-check-label">[[themes/harmony:settings.enableQuickReply]]</label>
+					<label for="enableQuickReply" class="form-check-label">[[themes/talksimlish:settings.enableQuickReply]]</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="enableBreadcrumbs" name="enableBreadcrumbs" />
-					<label for="enableBreadcrumbs" class="form-check-label">[[themes/harmony:settings.enableBreadcrumbs]]</label>
-					<p class="form-text">[[themes/harmony:settings.enableBreadcrumbs.why]]</p>
+					<label for="enableBreadcrumbs" class="form-check-label">[[themes/talksimlish:settings.enableBreadcrumbs]]</label>
+					<p class="form-text">[[themes/talksimlish:settings.enableBreadcrumbs.why]]</p>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="centerHeaderElements" name="centerHeaderElements" />
-					<label for="centerHeaderElements" class="form-check-label">[[themes/harmony:settings.centerHeaderElements]]</label>
+					<label for="centerHeaderElements" class="form-check-label">[[themes/talksimlish:settings.centerHeaderElements]]</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="mobileTopicTeasers" name="mobileTopicTeasers" />
-					<label for="mobileTopicTeasers" class="form-check-label">[[themes/harmony:settings.mobileTopicTeasers]]</label>
+					<label for="mobileTopicTeasers" class="form-check-label">[[themes/talksimlish:settings.mobileTopicTeasers]]</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="stickyToolbar" name="stickyToolbar" />
 					<div for="stickyToolbar" class="form-check-label">
-						[[themes/harmony:settings.stickyToolbar]]
+						[[themes/talksimlish:settings.stickyToolbar]]
 						<p class="form-text">
-							[[themes/harmony:settings.stickyToolbar.help]]
+							[[themes/talksimlish:settings.stickyToolbar.help]]
 						</p>
 					</div>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="topicSidebarTools" name="topicSidebarTools" />
 					<div for="topicSidebarTools" class="form-check-label">
-						[[themes/harmony:settings.topicSidebarTools]]
+						[[themes/talksimlish:settings.topicSidebarTools]]
 						<p class="form-text">
-							[[themes/harmony:settings.topicSidebarTools.help]]
+							[[themes/talksimlish:settings.topicSidebarTools.help]]
 						</p>
 					</div>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="autohideBottombar" name="autohideBottombar" />
 					<div for="autohideBottombar" class="form-check-label">
-						[[themes/harmony:settings.autohideBottombar]]
+						[[themes/talksimlish:settings.autohideBottombar]]
 						<p class="form-text">
-							[[themes/harmony:settings.autohideBottombar.help]]
+							[[themes/talksimlish:settings.autohideBottombar.help]]
 						</p>
 					</div>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="openSidebars" name="openSidebars" />
-					<label for="openSidebars" class="form-check-label">[[themes/harmony:settings.openSidebars]]</label>
+					<label for="openSidebars" class="form-check-label">[[themes/talksimlish:settings.openSidebars]]</label>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="chatModals" name="chatModals" />
 					<div for="chatModals" class="form-check-label">
-						[[themes/harmony:settings.chatModals]]
+						[[themes/talksimlish:settings.chatModals]]
 					</div>
 				</div>
 			</form>
