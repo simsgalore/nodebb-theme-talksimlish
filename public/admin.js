@@ -4,10 +4,10 @@ define('admin/plugins/talksimlish', ['settings'], function (Settings) {
 	var ACP = {};
 
 	ACP.init = function () {
-		Settings.load('harmony', $('.harmony-settings'));
+		Settings.load('talksimlish', $('.talksimlish-settings'));
 
 		$('#save').on('click', function () {
-			Settings.save('harmony', $('.harmony-settings'));
+			Settings.save('talksimlish', $('.talksimlish-settings'));
 		});
 	};
 
