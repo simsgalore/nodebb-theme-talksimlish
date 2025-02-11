@@ -1,7 +1,7 @@
 <!-- IMPORT partials/account/header.tpl -->
 
 <div class="mb-3 d-flex justify-content-between">
-	<h3 class="fw-semibold fs-5">[[themes/talksimlish:settings.title]]</h3>
+	<h3 class="fw-semibold fs-5">[[tt:settings.title]]</h3>
 
 	<button id="save" type="button" class="btn btn-primary">[[global:save-changes]]</button>
 </div>
