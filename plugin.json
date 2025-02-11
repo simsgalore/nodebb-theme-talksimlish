@@ -18,8 +18,7 @@
 		"../client/account/theme.js": "public/settings.js"
 	},
 	"staticDirs": {
-		"inter": "node_modules/@fontsource/inter/files",
-		"poppins": "node_modules/@fontsource/poppins/files"
+		"cabin": "node_modules/@fontsource-variable/cabin/files"
 	},
 	"languages": "languages"
 }
