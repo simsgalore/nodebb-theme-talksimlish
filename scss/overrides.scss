@@ -27,12 +27,14 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
+$beige: 	#f1f1e4 !default;
+$grey: 		##33363b !default;
 
-$body-color: 		$gray-800 !default;
-$body-bg: 			$white !default;
+$body-color: 		$grey !default;
+$body-bg: 		$beige !default;
 $body-tertiary-bg: 	$gray-200 !default;
 $text-muted: 		$gray-600 !default;
-$border-color: 		$gray-200 !default;
+$border-color: 		$grey !default;
 $link-color: 		#0951be !default;
 
 $form-check-input-border: var(--bs-border-width) solid $gray-500 !default;
@@ -51,8 +53,8 @@ $link-decoration: none;
 $link-hover-decoration: underline;
 
 // Custom fonts
-$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-secondary: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif: "Cabin Variable", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-secondary: "Cabin Variable", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-weight-semibold: 500 !default;
 $small-font-size: 0.875rem !default;
 
