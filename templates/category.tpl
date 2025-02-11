@@ -1,4 +1,4 @@
-<!-- IF function.equals(cid, "5") -->
+<!-- IF function.equals(cid, "[5]") -->
 <!-- IMPORT partials/breadcrumbs-json-ld.tpl -->
 {{{ if config.theme.enableBreadcrumbs }}}
 <!-- IMPORT partials/breadcrumbs.tpl -->
