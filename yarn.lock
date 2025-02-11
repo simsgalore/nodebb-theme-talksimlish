@@ -70,6 +70,11 @@
     "@eslint/core" "^0.10.0"
     levn "^0.4.1"
 
+"@fontsource-variable/cabin@5.1.5":
+  version "5.1.1"
+  resolved "https://registry.npmjs.org/@fontsource-variable/cabin/-/cabin-5.1.1.tgz"
+  integrity sha512-/cn5wfuS1tftVErPdKFoY67yDpTf6Ll8VFtiKMhM934wqufF+tnBdeWI2ImP3liwjDutLPvZSLJgGupCaTAHwCg==
+
 "@fontsource/inter@5.0.15":
   version "5.0.15"
   resolved "https://registry.npmjs.org/@fontsource/inter/-/inter-5.0.15.tgz"
