@@ -1,0 +1,149 @@
+.specialcenter {
+    text-align: center;
+    color: #040464;
+    margin: auto;
+    padding: 10px;
+}
+
+.alert-special {
+    --bs-alert-color:#f8f3ed;
+    --bs-alert-bg:#f8f3ed;
+    --bs-alert-border-color:#040464;
+    --bs-alert-link-color:#040464;
+}
+
+.bannerright {
+    text-align: right;
+    color: #040464;
+    width: 60%;
+    transform: translate(0, 22%);
+}
+
+.bannerright a {
+    color: #60a600;
+}
+
+.bannerright p {
+    color: #040464;
+}
+
+.alert-special a {
+    color:#040464;
+}
+
+.alert-special p {
+    color:#040464;
+}
+
+.text-bg-special {
+    color:#fff!important;
+    background-color:#00005a!important;
+    --bs-card-border-color:#fff;
+}
+
+.text-bg-special a {
+    color:#00db34;
+}
+
+.text-bg-ts1leg {
+    color:#fff!important;
+    background-color:#007eca!important;
+    --bs-card-border-color:#fff;
+}
+
+.text-bg-ts1leg a {
+    color:#e1f464;
+}
+
+.text-bg-ts2leg {
+    color:#fff!important;
+    background-color:#034e8f!important;
+    --bs-card-border-color:#fff;
+}
+
+.text-bg-ts2leg a {
+    color:#00db34;
+}
+
+.text-bg-ts4banner {
+    color:#fff!important;
+    background-color:#18538f!important;
+    --bs-card-border-color:#fff;
+}
+
+.text-bg-ts4banner a {
+    color:#98c5ee;
+}
+
+.text-bg-mysimsbanner {
+    color:#fff!important;
+    background-color:#7a7de4!important;
+    --bs-card-border-color:#fff;
+}
+
+.text-bg-mysimsbanner a {
+    color:#de97ef;
+}
+
+.text-bg-scbanner {
+    color:#fff!important;
+    background-color:#eb561b!important;
+    --bs-card-border-color:#fff;
+}
+
+.text-bg-scbanner a {
+    color:#33363b;
+}
+
+.text-bg-sporebanner {
+    color:#fff!important;
+    background-color:#146cb4!important;
+    --bs-card-border-color:#fff;
+}
+
+.text-bg-sporebanner a {
+    color:#e76f24;
+}
+
+.text-bg-ts3banner {
+    color:#fff!important;
+    background-color:#179847!important;
+    --bs-card-border-color:#fff;
+}
+
+.text-bg-ts3banner a {
+    color:#dec93d;
+}
+
+.twitch .twitch-video {
+    padding-top: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.twitch .twitch-video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.category-children-item:nth-child(-n+5) {
+    display: block;
+}
+
+.admonition.alert {
+    background: #c0f2e8;
+}
+.admonition.alert .admonition-title {
+    background: #7de8d2;
+    color: #33363b;
+}
+
+.admonition.warning .admonition-title {
+    color: #33363b;
+}
+
+.card {
+    --bs-card-bg: #fff;
+}
